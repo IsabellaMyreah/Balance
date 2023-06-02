@@ -1,0 +1,229 @@
+html{
+    font-family: 'DM Sans', sans-serif;
+    background-color: hsl(27, 66%, 92%);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.balance{
+    width: 550px;
+    height: 120px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.my{
+    margin: 0;
+    margin-left: 25px;
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.money{
+    font-size: 32px;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 7px;
+    margin-left: 25px;
+}
+
+.sym01{
+    height: 45px;
+    width: 45px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    position: relative;
+    left: 22px;
+}
+
+.sym02{
+    height: 47px;
+    width: 47px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.symbols{
+    display: flex;
+    justify-content: end;
+    margin: 0;
+    margin-top: 35px;
+    margin-right: 35px;
+
+}
+
+.spending{
+    margin-top: 20px ;
+    background-color: white;
+    width: 550px;
+    height: 550px;
+    border-radius: 20px;
+}
+
+.days{
+    margin: 0;
+    padding-top: 25px ;
+    padding-left: 30px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.total{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(143, 143, 143);
+
+}
+
+.money-bottom{
+    margin: 0;
+    font-weight: 700 ;
+    font-size: 47px;
+
+}
+
+.bottom{
+    margin-left: 30px ;
+}
+
+.perc{
+    margin: 0;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: end;
+
+}
+
+.last-month{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(143, 143, 143);
+
+}
+
+.final-info{
+    margin-top: 90px ;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.info-bottom{
+    margin-right: 30px;
+    margin-top: 27px;
+}
+
+.mon-bar{
+    width: 45px;
+    height: 45px;
+    background-color:  hsl(10, 79%, 65%); 
+    border-radius: 5px;
+}
+
+.mon p{
+    margin: 0;
+    margin-top: 10px;
+    color: rgb(143, 143, 143);
+}
+
+.tue-bar{
+    width: 45px;
+    height: 90px;
+    background-color:  hsl(10, 79%, 65%); 
+    border-radius: 5px;
+}
+
+.tue p{
+    margin: 0;
+    margin-top: 10px;
+    color: rgb(143, 143, 143);
+}
+
+.wed-bar{
+    width: 45px;
+    height: 135px;
+    background-color:  hsl(186, 34%, 60%);
+    border-radius: 5px;
+}
+
+.wed p{
+    margin: 0;
+    margin-top: 10px;
+    color: rgb(143, 143, 143);
+}
+
+.thu-bar{
+    width: 45px;
+    height: 85px;
+    background-color:   hsl(10, 79%, 65%); 
+    border-radius: 5px;
+}
+
+.thu p{
+    margin: 0;
+    margin-top: 10px;
+    color: rgb(143, 143, 143);
+}
+
+.fri-bar{
+    width: 45px;
+    height: 65px;
+    background-color:   hsl(10, 79%, 65%); 
+    border-radius: 5px;
+}
+
+.fri p{
+    margin: 0;
+    margin-top: 10px;
+    color: rgb(143, 143, 143);
+}
+
+.sat-bar{
+    width: 45px;
+    height: 100px;
+    background-color:   hsl(10, 79%, 65%); 
+    border-radius: 5px;
+}
+
+.sat p{
+    margin: 0;
+    margin-top: 10px;
+    color: rgb(143, 143, 143);
+}
+
+.sun-bar{
+    width: 45px;
+    height: 55px;
+    background-color:   hsl(10, 79%, 65%); 
+    border-radius: 5px;
+}
+
+.sun p{
+    margin: 0;
+    margin-top: 10px;
+    color: rgb(143, 143, 143);
+}
+
+.week{
+    margin-top: 80px;
+    margin-left: 30px ;
+    margin-right: 30px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+main{
+    width: 100px;
+    height: 100px;
+}
